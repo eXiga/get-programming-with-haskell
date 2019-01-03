@@ -53,17 +53,6 @@ data Patient = Patient
   , bloodType :: BloodType
   }
 
-testPatient :: Patient
-testPatient =
-  Patient
-  { name = Name "John" "Jack"
-  , age = 43
-  , sex = Male
-  , height = 194
-  , weight = 90
-  , bloodType = BloodType O Neg
-  }
-
 instance Show Patient where
   show (Patient n a s h w b) =
     "**************" ++
@@ -82,3 +71,14 @@ instance Show Patient where
     "\n" ++
     "Weight: " ++
     show w ++ "\n" ++ "Blood type: " ++ show b ++ "\n" ++ "**************"
+
+testPatient :: Patient
+testPatient =
+  Patient
+  { name = Name "John" "Jack"
+  , age = 43
+  , sex = Male
+  , height = 194
+  , weight = 90
+  , bloodType = BloodType O Neg
+  }
