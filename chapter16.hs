@@ -39,7 +39,7 @@ data Price
   | Free
 
 instance Show Price where
-  show (Price price) = show price
+  show (Price p) = show p
   show Free = "Free product!"
 
 newtype Author =
