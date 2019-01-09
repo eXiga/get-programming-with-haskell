@@ -16,8 +16,8 @@ data Color
   deriving (Show, Eq)
 
 instance Semigroup Color where
-  (<>) Clear _ = Clear
-  (<>) _ Clear = Clear
+  (<>) Clear a = a
+  (<>) a Clear = a
   (<>) Red Blue = Purple
   (<>) Blue Red = Purple
   (<>) Yellow Blue = Green
