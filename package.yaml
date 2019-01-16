@@ -1,0 +1,41 @@
+name:                gpwh
+version:             0.1.0.0
+github:              "eXiga/gpwh"
+license:             BSD3
+author:              "Anton Kastsenich"
+maintainer:          "anton.kostenich@hotmail.com"
+copyright:           "2019 Anton Kastsenich"
+
+extra-source-files:
+- README.md
+- ChangeLog.md
+
+description:         Please see the README on GitHub at <https://github.com/eXiga/gpwh#readme>
+
+dependencies:
+- base >= 4.7 && < 5
+
+library:
+  source-dirs: src
+
+executables:
+  gpwh-exe:
+    main:                Main.hs
+    source-dirs:         app
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    dependencies:
+    - gpwh
+
+tests:
+  gpwh-test:
+    main:                Spec.hs
+    source-dirs:         test
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    dependencies:
+    - gpwh
