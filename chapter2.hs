@@ -1,4 +1,4 @@
-module Lib where
+module Chapter2 where
 
 calcChange :: (Num a, Ord a) => a -> a -> a
 calcChange owed given =

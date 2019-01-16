@@ -1,4 +1,4 @@
-module Lib where
+module Chapter13 where
 
 class Describable a where
   describe :: a -> String

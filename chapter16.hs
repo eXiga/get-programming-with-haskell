@@ -1,4 +1,4 @@
-module Lib where
+module Chapter16 where
 
 newtype FirstName = FirstName
   { firstName :: String

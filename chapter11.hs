@@ -1,4 +1,4 @@
-module Lib where
+module Chapter11 where
 
 cHead :: [a] -> Maybe a
 cHead [] = Nothing

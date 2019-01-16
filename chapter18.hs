@@ -1,6 +1,6 @@
 {-# LANGUAGE ScopedTypeVariables #-}
 
-module Lib where
+module Chapter18 where
 
 import qualified Data.Map as Map
 

@@ -1,6 +1,6 @@
 {-# LANGUAGE ScopedTypeVariables #-}
 
-module Lib where
+module Chapter3 where
 
 sumSquareOrSquareSum :: (Num a, Ord a) => a -> a -> a
 sumSquareOrSquareSum x y =

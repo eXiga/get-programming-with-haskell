@@ -1,4 +1,4 @@
-module Lib where
+module Chapter14 where
 
 data NewEngland
   = ME

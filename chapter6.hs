@@ -1,4 +1,4 @@
-module Lib where
+module Chapter6 where
 
 cRepeat :: a -> [a]
 cRepeat n = cycle [n]

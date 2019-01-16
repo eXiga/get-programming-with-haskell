@@ -1,4 +1,4 @@
-module Lib where
+module Chapter4 where
 
 import Data.List (sortBy)
 

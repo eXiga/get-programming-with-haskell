@@ -1,4 +1,4 @@
-module Lib where
+module Chapter17 where
 
 import Data.Char (isSpace)
 import Data.Semigroup

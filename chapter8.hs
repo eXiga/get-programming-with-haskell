@@ -1,4 +1,4 @@
-module Lib where
+module Chapter8 where
 
 cTake :: Int -> [a] -> [a]
 cTake n =

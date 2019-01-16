@@ -1,4 +1,4 @@
-module Lib where
+module Chapter5 where
 
 type Host = String
 

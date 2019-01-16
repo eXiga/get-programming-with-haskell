@@ -1,4 +1,4 @@
-module Lib where
+module Chapter9 where
 
 import Data.Char (isSpace, toLower)
 

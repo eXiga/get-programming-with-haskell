@@ -1,4 +1,4 @@
-module Lib where
+module Chapter12 where
 
 data Sex
   = Male

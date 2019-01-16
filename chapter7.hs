@@ -1,4 +1,4 @@
-module Lib where
+module Chapter7 where
 
 cGcd :: Integral a => a -> a -> a
 cGcd a b =
